@@ -1,9 +1,7 @@
 import os
 import torch.backends.cudnn as cudnn
 import torch.utils.data
-from torchvision import transforms
 from my_data_loader import GetLoader
-from torchvision import datasets
 
 
 def mytest(dataset_name):
